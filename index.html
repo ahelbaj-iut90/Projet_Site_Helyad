@@ -1,21 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
+    <meta charset=utf-8 >
     <title>Helyad</title>
-</head>
-<body><address></address>
-    <h1>Voici notre site d'information sur l'entreprise helyad</h1>
-    <p>Les membres du groupe sont:</p>
-    <br>
-    <nav>
-        <li>
-            <ul>HELBAJ Auban (référent)</ul>
-            <ul>THEREZIEN Titouan</ul>
-            <ul>BELLICAUD Enzo</ul>
-            <ul>BAUDRY Tom</ul>
-            <ul>HUMBERT Ewan</ul>
-        </li>
-    </nav>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" >
+    <!-- <link rel="stylesheet" href="mes_style.css" type="text/css" media="screen">  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive mobile -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    </head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo.svg" alt="Logo Helyad"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Section1">Section1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Section2">Section2</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#Section3">Section3</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+
+      <div class="container">
+        <h1 id="Section1">Section1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab corrupti, commodi quia obcaecati enim deleniti sapiente, quae quam temporibus soluta ducimus deserunt voluptatibus. Repellendus molestiae facilis dolorem non optio. Atque!
+        </p>
+      </div>
+      <div class="container">
+        <h1 id="Section2">Section2</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab corrupti, commodi quia obcaecati enim deleniti sapiente, quae quam temporibus soluta ducimus deserunt voluptatibus. Repellendus molestiae facilis dolorem non optio. Atque!
+        </p>
+      </div>
+      <div class="container">
+        <h1 id="Section3">Section3</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab corrupti, commodi quia obcaecati enim deleniti sapiente, quae quam temporibus soluta ducimus deserunt voluptatibus. Repellendus molestiae facilis dolorem non optio. Atque!
+        </p>
+      </div>
+
+
+      <script src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
