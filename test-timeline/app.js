@@ -3,6 +3,7 @@ const topContentHeight = document.querySelector("#top-content").offsetHeight + (
 
 const smoothPercentage = 12;
 
+// LINE
 window.addEventListener("scroll", (e) => {
     if (window.scrollY + window.innerHeight/2 <= topContentHeight) return;
     
@@ -14,6 +15,7 @@ window.addEventListener("scroll", (e) => {
     line.style.background = `linear-gradient(green 0% ${percentage - smoothPercentage/2}%, rgba(0, 0, 0, 0) ${percentage + smoothPercentage/2}% ${100-percentage}%)`;
 });
 
+// APPARITION SCROLL
 let observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {

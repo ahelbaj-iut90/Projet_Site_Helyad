@@ -18,7 +18,7 @@
     width: var(--boxWidth);
     height: 12rem;
     border: 2px solid black;
-    margin: 4rem 0 4rem 0;
+    margin: 8rem 0 8rem 0;
 }
 
 .box-content {
@@ -74,7 +74,7 @@
 
 #line {
     width: 8px;
-    height: var(--boxesWidth);
+    height: 90%;
     background: rgba(0, 0, 0, 0);
     margin: auto;
     grid-column: 1;
