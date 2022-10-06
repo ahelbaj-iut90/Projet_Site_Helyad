@@ -65,9 +65,12 @@ body{
     color: #373737;
 }
 
-.carousel-control-next
-{
-
-    color: #373737;
-    box-shadow: #373737;
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
 }
