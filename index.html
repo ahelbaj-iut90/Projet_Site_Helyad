@@ -73,7 +73,7 @@
       </section>
       
          <!--Carousel-->
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+<div id="carouselExampleIndicators" class="carousel slide appear-element appear-invisible" data-bs-ride="true">
         
   <div class="carousel-inner container" >
     <div class="carousel-item active" >
@@ -156,7 +156,7 @@
 
 <!--FIN CAROUSEL-->
 
-      <div class="container style1 d-flex flex-row align-items-center">
+      <div class="container style1 d-flex flex-row align-items-center appear-element appear-invisible">
         <img src="images/histoire.jpg" alt="photo d'époque du site de l'entreprise" style="width:400px">
         <div class="texte">
           <h1 id="Section1">Histoire</h1>
@@ -167,7 +167,7 @@
         </div>
       </div>
 
-      <div class="container d-flex flex-row-reverse align-items-center">
+      <div class="container d-flex flex-row-reverse align-items-center appear-element appear-invisible">
         <img src="images/activité.jpg" alt="photo d'époque du site de l'entreprise" style="width:300px">
         <div class="texte">
           <h1 id="Section2">Activités</h1>
@@ -178,7 +178,7 @@
         </div>
       </div>
 
-      <div class="container d-flex flex-row align-items-center">
+      <div class="container d-flex flex-row align-items-center appear-element appear-invisible">
         <img src="images/trombi.jpg" alt="photo d'époque du site de l'entreprise" style="width:300px">
         <div class="texte">
           <h1 id="Section4">Trombinoscope</h1>
@@ -225,6 +225,7 @@
 
       <script src="bootstrap-5.2/js/bootstrap.bundle.min.js"></script>
       <script src="bootstrap-5.2/js/bootstrap.min.js"></script>
+      <!-- script pour animation "blob" derrière le titre principal -->
       <script>
         const tween = KUTE.fromTo(
           "#blob1",
@@ -235,5 +236,7 @@
   
         tween.start();
       </script>
+      <!-- script pour apparition animée au défilement -->
+      <script type="text/javascript" src="app.js"></script>
 </body>
 </html>

@@ -81,6 +81,17 @@
     top: 42.5%;
 }
 
+.appear-invisible {
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.appear-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
 body{
     background-color: var(--beige) !important;
 }
