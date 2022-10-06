@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700;800;900&display=swap');
+
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
@@ -24,12 +26,12 @@
 }
 
 #main-title h3, #main-title h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     text-align: center;
 }
 
 #main-title h1 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 7rem;
     color: #CC9759;
     z-index: 3;
