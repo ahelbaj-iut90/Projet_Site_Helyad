@@ -57,6 +57,11 @@ body{
     background-color: var(--beige) !important;
 }
 
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
 .style1 {
     padding-top: 80px;
 }
@@ -65,14 +70,13 @@ body{
     width: 95%;
 }
 
-
-
-.carousel-control-prev
-{
-
-    color: #373737;
+.texte {
+    margin: 50px;
 }
 
+p {
+    font-size: 25px;
+}
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 30px;
     width: 30px;
