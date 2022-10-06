@@ -42,3 +42,15 @@
     font-size: 1.5rem;
     width: 700px;
 }
+
+body{
+    background-color: #fbefda !important;
+}
+
+.style1 {
+    padding-top: 80px;
+}
+
+.space {
+    width: 95%;
+}
