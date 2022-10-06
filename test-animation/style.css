@@ -1,26 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #main {
     display: grid;
     background-color: #930013;
     background-repeat: no-repeat;
-    aspect-ratio
+    width: 100%;
+}
+
+#main svg {
+    position: relative;
+    right: 4%;
+    bottom: 5%;
 }
 
 #main > * {
     margin: auto;
-    /* display: flex; */
     grid-column: 1;
     grid-row: 1;
 }
 
-svg > * {
-    filter: brightness(80%);
+#main h3, #main h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 
 #main h1 {
-    position: relative;
-    right: 18%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     font-size: 7rem;
     color: #CC9759;
+    z-index: 3;
+}
+
+#main h3 {
+    position: relative;
+    top: 15%;
+    color: #383838;
+    font-size: 1.5rem;
+    width: 700px;
 }
