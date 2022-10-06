@@ -66,8 +66,8 @@ body{
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
+    height: 30px;
+    width: 30px;
     outline: black;
     background-color: rgba(0, 0, 0, 0.3);
     background-size: 100%, 100%;
