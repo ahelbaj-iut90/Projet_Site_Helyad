@@ -49,6 +49,11 @@ body{
     background-color: #fbefda !important;
 }
 
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
 .style1 {
     padding-top: 80px;
 }
@@ -57,20 +62,10 @@ body{
     width: 95%;
 }
 
-
-
-.carousel-control-prev
-{
-
-    color: #373737;
+.texte {
+    margin: 50px;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    height: 30px;
-    width: 30px;
-    outline: black;
-    background-color: rgba(0, 0, 0, 0.3);
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    border: 1px solid black;
+p {
+    font-size: 25px;
 }
