@@ -1,20 +1,26 @@
-#blob {
+#main {
     display: grid;
+    background-color: #930013;
+    background-repeat: no-repeat;
+    aspect-ratio
 }
 
-#blob > * {
+#main > * {
     margin: auto;
     /* display: flex; */
     grid-column: 1;
     grid-row: 1;
-    background-color: white;
 }
 
-#blob h1 {
+svg > * {
+    filter: brightness(80%);
+}
+
+#main h1 {
     position: relative;
     right: 18%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     font-size: 7rem;
-    mix-blend-mode: difference;
+    color: #CC9759;
 }
