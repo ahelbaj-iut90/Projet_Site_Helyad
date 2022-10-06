@@ -6,7 +6,9 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" >
     <!-- <link rel="stylesheet" href="mes_style.css" type="text/css" media="screen">  -->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive mobile -->
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.4/dist/kute.min.js"></script>
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="style-main-title.css">
     </head>
 <body>
 
@@ -32,7 +34,39 @@
         </div>
       </nav>
       
-
+      <section id="main-title">
+        <svg
+          id="visual"
+          viewBox="0 0 770 513"
+          width="1500"
+          height="1000"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+        >
+          <g transform="translate(430.80405448655074 274.3515977598298)">
+            <path
+              id="blob1"
+              d="M139.1 -119.3C183.9 -94.3 226.5 -47.1 227.7 1.2C228.8 49.5 188.7 99 143.8 131.2C99 163.3 49.5 178.2 -10.6 188.8C-70.7 199.4 -141.4 205.8 -170.9 173.6C-200.4 141.4 -188.7 70.7 -175.6 13.1C-162.5 -44.5 -148.1 -89.1 -118.6 -114.1C-89.1 -139.1 -44.5 -144.6 1.3 -145.9C47.1 -147.1 94.3 -144.3 139.1 -119.3"
+              fill="#FBEFDA"
+            ></path>
+          </g>
+  
+          <g
+            transform="translate(448.9703300439688 259.4704077753198)"
+            style="visibility: hidden"
+          >
+            <path
+              id="blob2"
+              d="M156.5 -131.5C206.5 -106.5 253.3 -53.3 244.4 -8.8C235.6 35.6 171.2 71.2 121.2 118.5C71.2 165.8 35.6 224.9 -7.7 232.6C-50.9 240.2 -101.8 196.5 -150.3 149.2C-198.8 101.8 -244.9 50.9 -243.4 1.5C-241.8 -47.8 -192.7 -95.7 -144.2 -120.7C-95.7 -145.7 -47.8 -147.9 2.7 -150.6C53.3 -153.3 106.5 -156.5 156.5 -131.5"
+              fill="#FBEFDA"
+            ></path>
+          </g>
+        </svg>
+        <h1>HELYAD</h1>
+        <h3>Helyad vous accompagne dans vos projets d'intégration d'ERP.</h3>
+      </section>
+      
       <div class="container">
         <h1 id="Section1">Section1</h1>
         <p>
@@ -54,5 +88,15 @@
 
 
       <script src="bootstrap/js/bootstrap.js"></script>
+      <script>
+        const tween = KUTE.fromTo(
+          "#blob1",
+          { path: "#blob1" },
+          { path: "#blob2" },
+          { repeat: 999, duration: 3000, yoyo: true }
+        );
+  
+        tween.start();
+      </script>
 </body>
 </html>

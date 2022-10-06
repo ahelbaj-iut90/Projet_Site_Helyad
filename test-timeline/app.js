@@ -12,7 +12,7 @@ window.addEventListener("scroll", (e) => {
     
     percentage = Math.floor(percentage);
 
-    line.style.background = `linear-gradient(green 0% ${percentage - smoothPercentage/2}%, rgba(0, 0, 0, 0) ${percentage + smoothPercentage/2}% ${100-percentage}%)`;
+    line.style.background = `linear-gradient(green 0% ${percentage + smoothPercentage/2}%, rgba(0, 0, 0, 0) ${percentage + smoothPercentage}% ${100-percentage}%)`;
 });
 
 // APPARITION SCROLL

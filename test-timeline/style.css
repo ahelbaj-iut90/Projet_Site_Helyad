@@ -7,7 +7,7 @@
 :root {
     --boxesWidth: 1200px;
     --boxWidth: 32rem;
-    --dotsWidth: 50px;
+    --dotsWidth: 60px;
 }
 
 #timeline {
@@ -53,7 +53,7 @@
     display: block;
     width: var(--dotsWidth);
     height: var(--dotsWidth);
-    background-color: red;
+    background-color: green;
     border-radius: 50%;
     position: relative;
     bottom: calc(50% + var(--dotsWidth)/2);
@@ -65,7 +65,7 @@
     display: block;
     width: var(--dotsWidth);
     height: var(--dotsWidth);
-    background-color: red;
+    background-color: green;
     border-radius: 50%;
     position: relative;
     bottom: calc(50% + var(--dotsWidth)/2);
