@@ -78,6 +78,13 @@ p {
     border-radius: 50%;
     border: 1px solid black;
 }
+
+
+.card > img{
+    align-items: center;
+}
+
+
 footer {
     width: 100%;
     height: 400px;
