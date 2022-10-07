@@ -11,7 +11,7 @@ Membre du groupe:
   - BELLICAUD Enzo 
   - BAUDRY Tom 
   - HUMBERT Ewan
-# Livrable parties Économie et Documents numérique
+# Ecran prototype et écran de zoning
 
 [écran prototype](doc/groupe1_HELBAJ_THEREZIEN_BELLICAUD_BAUDRY_HUMBERT.pdf)
 
