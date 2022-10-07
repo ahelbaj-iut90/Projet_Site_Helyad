@@ -13,7 +13,11 @@ Membre du groupe:
   - HUMBERT Ewan
 # Ecran prototype et écran de zoning
 
-[écran prototype](doc/groupe1_HELBAJ_THEREZIEN_BELLICAUD_BAUDRY_HUMBERT.pdf)
-
+Ecran de zoning
 ![écran de zoning](doc/zoning-pagesinfos-github.png)
+Ecran prototype
 ![écran prototype](doc/proto.png)
+
+
+
+[écran prototype](doc/groupe1_HELBAJ_THEREZIEN_BELLICAUD_BAUDRY_HUMBERT.pdf)
