@@ -13,7 +13,7 @@ Membre du groupe:
   - HUMBERT Ewan
 # Livrable parties Économie et Documents numérique
 
-[écran prototype](doc/groupe_nom1_nom2_nom3_nom4.pdf)
+[écran prototype](doc/groupe1_HELBAJ_THEREZIEN_BELLICAUD_BAUDRY_HUMBERT.pdf)
 
 ![écran de zoning](doc/zoning-pagesinfos-github.png)
 ![écran prototype](doc/proto.png)
