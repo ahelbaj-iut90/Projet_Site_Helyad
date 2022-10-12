@@ -79,16 +79,23 @@
     margin: auto;
     grid-column: 1;
     grid-row: 1;
+    border-radius: 8px;
 }
 
-.invisible {
+.invisible:nth-child(odd) {
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateX(30px);
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+.invisible:nth-child(even) {
+    opacity: 0;
+    transform: translateX(-30px);
     transition: 1s cubic-bezier(.5, 0, 0, 1);
 }
 
 .visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0px);
     transition: 1s cubic-bezier(.5, 0, 0, 1);
 }

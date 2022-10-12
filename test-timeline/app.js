@@ -1,7 +1,7 @@
 const line = document.querySelector("#line");
 const topContentHeight = document.querySelector("#top-content").offsetHeight + (document.querySelector("#timeline").offsetHeight - line.offsetHeight)/2;
 
-const smoothPercentage = 12;
+const SMOOTH_PERCENTAGE = 12;
 
 // LINE
 window.addEventListener("scroll", (e) => {
@@ -12,7 +12,7 @@ window.addEventListener("scroll", (e) => {
     
     percentage = Math.floor(percentage);
 
-    line.style.background = `linear-gradient(green 0% ${percentage + smoothPercentage/2}%, rgba(0, 0, 0, 0) ${percentage + smoothPercentage}% ${100-percentage}%)`;
+    line.style.background = `linear-gradient(green 0% ${percentage + SMOOTH_PERCENTAGE/2}%, rgba(0, 0, 0, 0) ${percentage + SMOOTH_PERCENTAGE}% ${100-percentage}%)`;
 });
 
 // APPARITION SCROLL
