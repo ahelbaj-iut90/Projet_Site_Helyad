@@ -14,7 +14,7 @@
     --grey: #70655E;
     --beige: #fbefda;
 
-    --h1-h3-ratio: calc(1.5 / 7);
+    --h1-h2-ratio: calc(1.5 / 7);
 }
 
 /*
@@ -42,7 +42,7 @@ Header
     bottom: 5%;
 }
 
-#main-title h3, #main-title h1 {
+#main-title h2, #main-title h1 {
     text-align: center;
     z-index: 2;
     transform: translateY(-50px);
@@ -55,10 +55,10 @@ Header
     color: var(--brown);
 }
 
-#main-title h3 {
+#main-title h2 {
     font-family: 'Montserrat', sans-serif;
     color: var(--dark-grey);
-    font-size: calc(var(--h1-h3-ratio) * 7rem);
+    font-size: calc(var(--h1-h2-ratio) * 7rem);
     width: 700px;
 }
 
@@ -97,7 +97,7 @@ Header
 }
 
 @media screen and (max-width: 1200px) {
-    #main-title h1, #main-title h3 {
+    #main-title h1, #main-title h2 {
         transform: translateY(-80px);
     }
 
@@ -105,13 +105,13 @@ Header
         transform: scale(1.1);
     }
 
-    #main-title h3 {
+    #main-title h2 {
         width: 500px;
     }
 }
 
 @media screen and (max-width: 900px) {
-    #main-title h1, #main-title h3 {
+    #main-title h1, #main-title h2 {
         transform: translateY(-80px);
     }
 
@@ -123,14 +123,14 @@ Header
         font-size: 6rem;
     }
 
-    #main-title h3 {
-        font-size: calc(var(--h1-h3-ratio) * 6rem);
+    #main-title h2 {
+        font-size: calc(var(--h1-h2-ratio) * 6rem);
         width: 400px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    #main-title h1, #main-title h3 {
+    #main-title h1, #main-title h2 {
         transform: translateY(-80px);
     }
 
@@ -142,8 +142,8 @@ Header
         font-size: 5rem;
     }
 
-    #main-title h3 {
-        font-size: calc(var(--h1-h3-ratio) * 5rem);
+    #main-title h2 {
+        font-size: calc(var(--h1-h2-ratio) * 5rem);
         width: 300px;
     }
 }
