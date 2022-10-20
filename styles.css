@@ -296,3 +296,30 @@ footer {
 #footer-contact li > a:hover {
     color: var(--beige);
 }
+
+
+/*
+#Style page activité
+*/
+
+
+.fondContainer
+{
+    background-color: #930013;
+}
+.fondPhoto
+{
+    background-color: #CC9759;
+}
+
+.titreActivite
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pActivite
+{
+    font-size: 20px;
+}
