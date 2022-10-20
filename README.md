@@ -34,7 +34,6 @@ HELBAJ Auban :
   - Création de l'écran de zonning général du site.
   - Rédaction du Read.me.
   - Création de la page "Chiffres" française du site.
-  - Création de la page "Figures" anglaise du site.
   - Rédaction de l'intro du rapport économique.
   
 THEREZIEN Titouan :
@@ -54,6 +53,7 @@ BELLICAUD Enzo :
   - Création de la page d'accueil anglaise du site.
   - Création du menu de navigation français du site.
   - Création du menu de navigation anglais du site.
+  - Création de la page "Figures" anglaise du site.
   - Rédaction de la partie activités ainsi que le rapport écologique et la sitographie.
   
 HUMBERT Ewan :
