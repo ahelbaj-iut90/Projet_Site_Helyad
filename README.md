@@ -24,7 +24,7 @@ Ecran prototype
 
 [Validation des pages par W3C](doc/validationW3C.pdf)
 
-# Travail efféctué par chacun lors de ce projet:
+# Travail effectué par chacun lors de ce projet:
 
 HELBAJ Auban : 
   - Mise en place de l'organisation du projet.
