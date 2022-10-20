@@ -198,6 +198,11 @@ body{
     text-align: center;
 }
 
+.lien-rapport{
+    text-decoration: none;
+    color: var(--dark-grey);
+}
+
 p {
     font-size: 25px;
 }
