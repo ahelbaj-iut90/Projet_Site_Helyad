@@ -22,7 +22,7 @@ Ecran prototype
 
 [écran prototype](doc/groupe1_HELBAJ_THEREZIEN_BELLICAUD_BAUDRY_HUMBERT.pdf)
 
-TRAVAIL EFFECTUE PAR CHACUN LORS DE CE PROJET:
+#Travail efféctué par chacun lors de ce projet:
 
 HELBAJ Auban : 
   - Mise en place de l'organisation du projet.
