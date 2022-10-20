@@ -20,7 +20,9 @@ Ecran prototype
 
 
 
-[écran prototype](doc/groupe1_HELBAJ_THEREZIEN_BELLICAUD_BAUDRY_HUMBERT.pdf)
+[Économie et Documents numérique](doc/HELBAJAuban_SAES156_groupe1_HELYAD.pdf)
+
+[Validation des pages par W3C](doc/validationW3C.pdf)
 
 # Travail efféctué par chacun lors de ce projet:
 
