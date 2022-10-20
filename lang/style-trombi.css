@@ -1,3 +1,9 @@
+/*
+==============
+Trombinoscope
+==============
+*/
+
 .tree {
 	margin: auto;
 	width: 90%;
@@ -63,6 +69,12 @@
 	transform: translateY(10px);
 	color: #383838;
 }
+
+/*
+==============
+Paragraphes
+==============
+*/
 
 .contenu-paragraphe {
 	margin: 20px 50px 20px 50px;
